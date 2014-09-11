@@ -18,4 +18,4 @@ Combine with `cron` for an app that posts a line of something every so often.
 
 Example for running at 8am every day:
 
-`00 08 * * * node /path/to/index.js`
+`00 08 * * * node /path/to/index.js > /path/to/logfile.log`

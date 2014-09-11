@@ -39,7 +39,7 @@ async.parallel([
     fs.writeFile(_BOOKMARK_FILE, new_bookmark+'\n', 'utf8', function(err) {
         if (err) throw err;
         tweetMessage(line, function(data) {
-            console.log('tweeted line', bookmark, ':', data.text, 'at', data.created_at);
+            console.log('tweeted line', bookmark, ':', line, 'at', data.created_at);
         });
     });
 });
