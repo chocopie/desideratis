@@ -19,3 +19,9 @@ Combine with `cron` for an app that posts a line of something every so often.
 Example for running at 8am every day:
 
 `00 08 * * * /path/to/node /path/to/index.js > /path/to/logfile.log`
+
+## Thank you for help!
+
+* [niaal](http://github.com/niaal)
+* [jimmyhillis](http://github.com/jimmyhillis)
+* [mrwob](http://github.com/mrwob)
