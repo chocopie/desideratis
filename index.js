@@ -10,8 +10,8 @@ var _TWIT = new twitter({
     access_token_key: config.twitter_access_token_key,
     access_token_secret: config.twitter_access_token_secret
 });
-var _BOOKMARK_FILE = './bookmark.dat';
-var _POEM_FILE = config.poem;
+var _BOOKMARK_FILE = config.path_to_app + 'bookmark.dat';
+var _POEM_FILE = config.path_to_app + config.poem;
 
 // arguments
 var START_FROM = argv.startfrom !== undefined ? (argv.startfrom === true ? 0 : argv.startfrom) : null;

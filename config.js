@@ -1,5 +1,6 @@
 module.exports = {
-  poem: 'PATH_TO_YOUR_POEM',
+  path_to_app: '/PATH/TO/APP/',
+  poem: 'POEM_FILENAME.TXT',
   twitter_api_key: 'YOUR_API_KEY',
   twitter_api_secret: 'YOUR_API_SECRET',
   twitter_access_token_key: 'YOUR_ACCESS_TOKEN',
