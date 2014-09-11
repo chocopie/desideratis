@@ -1,7 +1,7 @@
 {
   "name": "desideratis",
   "version": "0.0.0",
-  "description": "A node app that, each day, tweets a line from an inspirational poem.",
+  "description": "A node app that tweets a line from an inspirational poem.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

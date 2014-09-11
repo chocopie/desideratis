@@ -1,9 +1,9 @@
 desideratis
 ===========
 
-**WORK IN PROGRESS, DO NOT USE THIS YET**
+A node app that tweets a line from an inspirational poem.
 
-A node app that, each day, tweets a line from an inspirational poem.
+Combine with `cron` for an app that posts a line of something every so often.
 
 ## Get started
 
@@ -14,6 +14,8 @@ A node app that, each day, tweets a line from an inspirational poem.
 5. Add a poem text file, with one line per line. No empty line at the end.
 6. Run app using `node index.js`. Use `node index.js --help` for override instructions.
 
-## TODO
+## crontab command
 
-* Set up cron file.
+Example for running at 8am every day:
+
+`00 08 * * * node /path/to/index.js`
