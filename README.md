@@ -25,3 +25,4 @@ Example for running at 8am every day:
 * [niaal](http://github.com/niaal)
 * [jimmyhillis](http://github.com/jimmyhillis)
 * [mrwob](http://github.com/mrwob)
+* [stafu](http://github.com/stafu)
