@@ -11,7 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "twitter": "^0.2.11",
-    "cron": "^1.0.4",
     "minimist": "^1.1.0",
     "async": "^0.9.0"
   }
