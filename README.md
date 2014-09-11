@@ -9,12 +9,11 @@ A node app that, each day, tweets a line from an inspirational poem.
 
 1. Clone repo.
 2. Run `npm install`.
-3. Set up your app in Twitter to get your API and access token info.
+3. Set up your/ app in Twitter to get your API and access token info.
 4. Add your API and access token into to the config.
 5. Add a poem text file, with one line per line.
-6. Run app using `node index.js --poem YOUR_POEM_TEXT_FILE` (replacing the poem filename, of course).
+6. Run app using `node index.js`. Use `node index.js --help` for override instructions.
 
 ## TODO
 
 * Set up cron file.
-* Allow user to override bookmark and manually specify a starting line.
